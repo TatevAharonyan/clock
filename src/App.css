@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+
+form {
+  width: 90%;
+  height: 50px;
+  display: flex;
+
+}
+
+input {
+  width: 150px;
+  height: 25px;
+  border-radius: 5px;
+  margin: 10px;
+  display: flex;
+  outline: none;
+  text-align: center;
+  align-items: center;
+  border-color: rgba(155, 152, 152, 0.815);
+  box-shadow: 3px  3px 2px rgb(148, 147, 147);
+  background-color: rgba(226, 223, 223, 0.178);
+}
+button {
+  width: 80px;
+  height: 25px;
+  margin: 10px;
+  border-radius: 5px;
+  border-color: rgba(155, 152, 152, 0.815);
+  box-shadow: 3px  3px 2px rgb(148, 147, 147);
+  background-color: rgba(226, 223, 223, 0.89);
+}
+
+.errorMes {
+
+  display: block;
+  text-align: center;
+  align-items: center;
+  color: rgb(197, 27, 27);
+  font-size: 14px;
+}
+
+.clock{
+
+  background-image: url(https://thegraphicsfairy.com/wp-content/uploads/2018/10/Clock-Face-Image-Black-White-GraphicsFairy.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  height: 300px;
+  transform: translate(-50%, -50%);
+  
+}
+
+.hours {
+  position: absolute;
+  width: 7px;
+  height: 90px;
+  background: rgb(63, 66, 56);
+  top: 20%;
+  left: 48.9%;
+  border-radius: 7px  7px 2px  2px;
+  transform-origin: bottom;
+
+}
+
+.minutes {
+  position: absolute;
+  width: 4px;
+  height: 130px;
+  border-radius: 7px  7px 2px  2px;
+  background: #444;
+  top: 8%;
+  left: 49.5%;
+  transform-origin: bottom;
+
+}
+
+.seconds {
+  position: absolute;
+  width: 3px;
+  height: 130px;
+  background: rgb(247, 243, 34);
+  top: 8%;
+  left: 49.6%;
+  transform-origin: bottom;
+
+}
+.circle {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: rgb(22, 22, 18);
+  top: 48%;
+  left: 47.7%;
+  border-radius: 50%;
+}
